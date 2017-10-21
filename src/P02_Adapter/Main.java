@@ -5,11 +5,11 @@ package P02_Adapter;
  */
 public class Main {
     public static void main(String[] args) {
-        InterfacePrint interfacePrint = new InheritancePrintBanner("Hello, inheritance adapter. ");
+        InterfacePrint interfacePrint = new InheritancePrintBanner("Hello, inheritance P02_Adapter. ");
         interfacePrint.printWeak();
         interfacePrint.printStrong();
 
-        DelegatePrintBanner delegatePrintBanner = new DelegatePrintBanner("Hello, delegated adapter.");
+        DelegatePrintBanner delegatePrintBanner = new DelegatePrintBanner("Hello, delegated P02_Adapter.");
         delegatePrintBanner.printWeak();
         delegatePrintBanner.printStrong();
     }

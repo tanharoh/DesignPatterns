@@ -4,7 +4,9 @@ import java.io.*;
 
 /**
  * Created by ilyar on 17-10-20
+ * @author ilyar
  */
+
 public class FileProperties extends java.util.Properties implements FileIO {
 
     @Override

@@ -2,6 +2,7 @@ package P01_Iterator;
 
 /**
  * Created by ilyar on 17-10-18
+ * @author ilyar
  */
 public class Main {
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
 package P02_Adapter.Exercise;
 
-import javax.imageio.IIOException;
 import java.io.IOException;
 
 /**
  * Created by ilyar on 17-10-21
+ * @author ilyar
  */
 public class Main {
     public static void main(String[] args) {
