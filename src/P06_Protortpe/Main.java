@@ -6,7 +6,7 @@ import P06_Protortpe.framework.Product;
 public class Main {
     public static void main(String[] args) {
         Manager manager = new Manager();
-        UnderlinePen ulPen = new UnderlinePen('-');
+        UnderlinePen ulPen = new UnderlinePen('~');
         MessageBox msgBox1 = new MessageBox('*');
         MessageBox msgBox2 = new MessageBox('/');
         manager.register("strong message", ulPen);
@@ -15,8 +15,12 @@ public class Main {
 
         Product p1 = manager.create("strong message");
         p1.use("Hi, how are you?");
+        System.out.println("");
+
         Product p2 = manager.create("warning box");
         p2.use("FBI WARNING");
+        System.out.println("");
+
         Product p3 = manager.create("slash box");
         p3.use("I am a slash box");
 

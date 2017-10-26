@@ -17,7 +17,7 @@ public class MessageBox implements Product {
             System.out.print(decoChar);
         }
         System.out.println("");
-        System.out.print(decoChar + " " + s + " " + decoChar);
+        System.out.println(decoChar + " " + s + " " + decoChar);
         for (int i = 0; i < len + 4; i++) {
             System.out.print(decoChar);
         }
