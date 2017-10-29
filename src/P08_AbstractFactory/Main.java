@@ -5,6 +5,14 @@ import P08_AbstractFactory.factory.Link;
 import P08_AbstractFactory.factory.Page;
 import P08_AbstractFactory.factory.Tray;
 
+
+/**
+ * 编译方法:
+ *  在项目根目录
+ *    javac P08_AbstractFactory/Main.java P08_AbstractFactory/listfactory/ListFactory.java
+ * 执行:
+ *    java P08_AbstractFactory.Main P08_AbstractFactory.listfactory.ListFactory
+ * */
 public class Main {
     public static void main(String[] args) {
         if (args.length != 1) {
